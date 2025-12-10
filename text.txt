@@ -1,0 +1,133 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name= content="width=device-width, initial-scale=1.0" />
+  <title>Dillard Eric Property Maintenance LLC</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background: #163b6d;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #102b4d;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://via.placeholder.com/1500x500') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 5px #000;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .section {
+      padding: 40px;
+      background: white;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 1000px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .service-box {
+      background: #f0f4fa;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.05);
+    }
+    footer {
+      background: #163b6d;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dillard Eric Property Maintenance LLC</h1>
+    <p>Reliable. Local. Family-Owned.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    Keeping Tampa Homes in Top Shape
+  </div>
+
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>
+      Dillard Eric Property Maintenance LLC was founded over 15 years ago by a dedicated Tampa local
+      who cared deeply about quality work and strong relationships. Today, the business continues
+      in his honor — focusing on reliable service, honest communication, and helping homeowners
+      keep their properties safe, clean, and well-maintained.
+    </p>
+    <p>
+      We remain a small, family-oriented company that values trust and consistency. Every job,
+      big or small, receives the same level of care.
+    </p>
+  </section>
+
+  <section class="section" id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-box">
+        <h3>Home Repairs</h3>
+        <p>Minor repairs, patchwork, fixture replacements, and general handyman services.</p>
+      </div>
+      <div class="service-box">
+        <h3>Property Upkeep</h3>
+        <p>Regular maintenance to keep your home or rental property in excellent condition.</p>
+      </div>
+      <div class="service-box">
+        <h3>Cleaning & Turnover</h3>
+        <p>Interior cleaning, rental turnovers, and light outdoor maintenance.</p>
+      </div>
+      <div class="service-box">
+        <h3>Small Renovations</h3>
+        <p>Painting, flooring, cosmetic upgrades, and project support.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: mbob84075@gmail.com</p>
+    <p>Phone: (813) 555-2478</p>
+    <p>Location: Tampa, Florida</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dillard Eric Property Maintenance LLC</p>
+  </footer>
+</body>
+</html>
